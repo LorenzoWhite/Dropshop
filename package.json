@@ -1,0 +1,23 @@
+{
+  "name": "dropshopsite",
+  "version": "1.0.0",
+  "description": "website for dropshop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "bulma-extensions": "^1.0.14",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Lorenzo White",
+  "license": "ISC"
+}
