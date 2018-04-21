@@ -10,6 +10,7 @@
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
+    "bulma": "^0.7.1",
     "bulma-extensions": "^1.0.14",
     "cors": "*",
     "express": "*",
