@@ -1,0 +1,27 @@
+<ngx-carousel
+          [inputs]="carouselOne"
+          (carouselLoad)="myfunc($event)">
+          <ngx-item NgxCarouselItem>
+            <img src='../../assets/images/img3.jpg'/>
+          </ngx-item>
+          <ngx-item NgxCarouselItem>
+            <img src='../../assets/images/img3.jpg'/>
+          </ngx-item>
+          <ngx-item NgxCarouselItem>
+            <img src='../../assets/images/img3.jpg'/>
+          </ngx-item>
+          <button NgxCarouselPrev class='leftRs'>&lt;</button>
+          <button NgxCarouselNext class='rightRs'>&gt;</button>
+</ngx-carousel>
+
+<ngx-carousel
+  [inputs]="carouselTile"
+  (carouselLoad)="carouselTileLoad($event)">
+
+        <ngx-tile NgxCarouselItem *ngFor="let Tile of carouselTileItems">
+            <img class='bannerimg' src='../../assets/images/img2.jpg' />
+        </ngx-tile>
+
+      <button NgxCarouselPrev class='leftRs'>&lt;</button>
+      <button NgxCarouselNext class='rightRs'>&gt;</button>
+</ngx-carousel>

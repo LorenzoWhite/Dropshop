@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+//import carousel module for banner
+//component imports
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -20,6 +21,12 @@ import { SalesComponent } from './components/sales/sales.component';
 import { ClosetComponent } from './components/closet/closet.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { SamplebannerComponent } from './components/samplebanner/samplebanner.component';
+
+import { NgxCarouselModule } from 'ngx-carousel';
+
+
+
 
 
 @NgModule({
@@ -40,11 +47,13 @@ import { RegisterComponent } from './components/register/register.component';
     SalesComponent,
     ClosetComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    SamplebannerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

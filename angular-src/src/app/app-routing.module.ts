@@ -21,6 +21,7 @@ import { SalesComponent } from './components/sales/sales.component';
 import { ClosetComponent } from './components/closet/closet.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { SamplebannerComponent } from './components/samplebanner/samplebanner.component'
 
 //routes setup
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
   {path: 'sales', component: SalesComponent},
   {path: 'closet', component: ClosetComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'register', component: RegisterComponent}
+  {path: 'register', component: RegisterComponent},
+  {path: 'banner', component: SamplebannerComponent}
 ]
 
 @NgModule({
